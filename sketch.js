@@ -64,11 +64,15 @@ function setup() {
 
 }
 function draw() {
-  background("white"); 
+  background(56,44,44); 
  
   //Engine.update(engine);
   
-  
+  textSize(20);
+  fill("lightyellow");
+  text("Drag the polygon to destroy the blocks",300,30);
+  textSize(10);
+  text("Press Space to get a second Chance to Play!!",650 ,350);
   ground.display();
   stand1.display();
   stand2.display();
